@@ -1,0 +1,13 @@
+{
+  "language": "python",
+  "app": "python3 ./main.py",
+  "terraformProviders": [],
+  "terraformModules": [
+    "cloudposse/elastic-beanstalk-application/aws@~> 0.11.0"
+  ],
+  "codeMakerOutput": "imports",
+  "context": {
+    "excludeStackIdFromLogicalIds": "true",
+    "allowSepCharsInLogicalIds": "true"
+  }
+}
